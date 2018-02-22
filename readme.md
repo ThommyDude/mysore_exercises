@@ -96,10 +96,10 @@ f(n) = f(n - 1) + f(n - 2)
 Skriv en rekursiv funktion som räknar ut det n:te Fibonacci-talet.
 Testa den genom att räkna ut det tionde.
 
-## 21
+## 21 :heavy_check_mark:
 Skriv en funktion som räknar hur många udda tal det finns i en array.
 
-## 22
+## 22 :heavy_check_mark:
 Skriv en funktion som vänder på en sträng. Funktionen ska finnas i två versioner: en rekursiv och en iterativ.
 #### Exempel:
 ```
