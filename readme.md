@@ -83,7 +83,7 @@ Skriv en funktion som räknar ut summan av talen 1 till 100, i en rekursiv och e
 ## 19 :question:
 Förbättra båda versionerna av funktionen så att det går att ställa in det första och det sista talet som argument.
 
-## 20
+## 20 :heavy_check_mark:
 En av de mest kända talföljderna är uppkallad efter den italienske matimatikern *Leonardo Fibonacci*. I början av 1200-talet studerade han ett problem vars lösning ledde till talföljden:
 > 1, 1, 2, 3, 5, 8, 13, 21, 34, 55.
 

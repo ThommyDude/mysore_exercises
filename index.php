@@ -41,6 +41,8 @@
 
             make_tag( "p", $derpstr, "style='color: darkblue; background-color: hotpink;'");
 
+            make_tag("p", fibnib(10));
+
             //roundNumb( Float ); returns rounded float as int.
             make_tag("p", roundNumb(4.56));
             make_tag("p", roundNumb(2.1113));

@@ -219,5 +219,17 @@
         return $total;
     }
 
+    function fibnib(int $number)
+    {
+        if($number === 1)
+        {
+            return 1;
+        }
+        elseif($number <= 0)
+        {
+            return 0;
+        }
 
+        return fibnib($number - 1) + fibnib($number - 2);
+    }
 ?>
