@@ -28,6 +28,15 @@
             $derpstr = switch_br($derpstr);
 
             make_tag( "p", $derpstr, "style='color: darkblue; background-color: hotpink;'");
+
+            //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
+            $derparray = randFillArray(50, 0, 7);
+            echo "<ul>";
+            foreach($derparray as $numb)
+            {
+                echo "<li>" . $numb . "</li>";
+            }
+            echo "</ul>";
         ?>
     </body>
 </html>

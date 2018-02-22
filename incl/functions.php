@@ -42,4 +42,20 @@
         return nl2br($text);
     }
 
+    //Needs 1 number(int) which is the amount of numbers you want IN the returned array.
+    //2 optional numbers for the min and max to use for generating the random numbers. standard is between 0 and getrandmax().
+    function randFillArray(int $numb, int $min = 0, int $max = null): array
+    {
+        if($max === null)
+        {
+            $max = getrandmax();
+        }
+
+        for($i = 0; $i < $numb; $i++)
+        {
+            $array[] = rand($min, $max);
+        }
+        return $array;
+    }
+
 ?>
