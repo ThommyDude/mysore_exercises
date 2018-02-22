@@ -62,6 +62,10 @@
 
             //dayToNumber( String ["monday", "tuesday", "wednesday", "thrusday", "friday", "saturday", "sunday"] );
             make_tag("h2", dayToNumber("ThURsdaY"));
+
+            //doubleIt( Int [negative or positive number] );
+            make_tag("h1", doubleIt(-50));
+            make_tag("h1", doubleIt(20));
             
             //make_list( Array );
             make_list($derparray);

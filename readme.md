@@ -4,48 +4,48 @@ Inom astangha yoga är mysore att man gör en serie av övningar i sitt egna tem
 
 Om inget annat står så skapa en ny fil för varje uppgift, ni kan clona detta repo så har ni en egen readme.md att utgå ifrån.
 
-## 1 
+## 1 :heavy_check_mark:
 Skriv en funktion med namnet `make_paragraph` som skriver ut en sträng som HTML-elementet \<p>.
 Exempel: "hej" ska skrivas ut som "\<p>hej\</p>".
 Funktionen ska ha en parameter, som är strängen som ska skrivas ut, och den ska inte returnera något. 
 
-## 2
+## 2 :heavy_check_mark:
 Funktionen `make_paragraph` är lite begränsad. Tänk om vi vill göra h1-taggar? Eller h2, h3 osv. Skriv en ny funktion med namnet `make_heading`. Funktionen behöver veta strängen som ska skrivas ut och vilken heading det ska vara. Den behöver alltså två argument.
 
-## 3
+## 3 :heavy_check_mark:
 Nu har vi två funktioner som vi kan använda för att skapa HTML-paragrafer och headings. Men det blir väldigt många funktioner om vi ska ha en funktion för varje möjligt HTML-element.
 
 Vi behöver en funktion som kan göra flera sorters element. Skriv en funktion `make_tag` som kan göra alla sorters HTML-element.
 
-## 4
+## 4 :heavy_check_mark:
 Förbättra `make_tag` så att man kan ange inline styles också. (Eller `href` för länkar)
 #### Exempel:
 ```<p style="color: hotpink;">exempeltext\</p>```
 
-## 5
+## 5 :heavy_check_mark:
 Skriv en funktion som gör om alla nyrader i en sträng till \<br>-element. Funktionen ska ta strängen som parameter och returnera en ny sträng. En nyrad i PHP skrivs ut med `\\n`.
 
-## 6
+## 6 :heavy_check_mark:
 Skriv en funktion som returnerar en array med slumptal. Använd `rand` för att göra slumptal. Hur många argument behöver funktionen?
 
-## 7
+## 7 :heavy_check_mark:
 Skriv en funktion som gör om en array till en lista i HTML. Använd funktionen `make_tag`.
 #### Exempel: 
 ```make_list( [1, 2] ) // "<ul> <li>1</li> <li>2</li> </ul>"```
 
-## 8
+## 8 :heavy_check_mark:
 Skriv en funktion som gör om en tvådimensionell array till en HTML-tabell.
 
-## 9 
+## 9 :heavy_check_mark:
 Förbättra funktionen så att den lägger till en rad sist i tabellen, med summan av alla siffror i varje kolumn. Du kan anta att arrayen innehåller tal.
 
-## 10
+## 10 :heavy_check_mark:
 Skriv en funktion med namnet capitalize som gör om ett användarnamn till stora bokstäver.
 
-## 11
+## 11 :heavy_check_mark:
 Förbättra funktionen så att den bara gör första bokstaven stor.
 
-## 12
+## 12 :heavy_check_mark:
 Skriv en funktion `round` som avrundar en float till närmaste heltal.
 #### Exempel:
 ```
@@ -53,20 +53,20 @@ round(3.9); // 4
 round(5.4); // 5.
 ```
 
-## 13
+## 13 :heavy_check_mark:
 Skriv en funktion som gör om ett decimaltal till en sträng. Strängen ska använda decimalkomma i stället för decimalpunkt.
 ### Exempel:
 ``` float_to_string(75.5) // "75,5".```
 
-## 14
+## 14 :heavy_check_mark:
 Skriv en funktion som räknar ut summan av alla tal i en array. Skriv en annan som räknar ut medelvärdet.
 
-## 15
+## 15 :heavy_check_mark:
 Skriv en funktion som tar en sträng som motsvarar en veckodag som parameter och returnerar en siffra. Om strängen är "måndag" ska funktionen returnera 1, "tisdag" ska bli 2 och "söndag" ska bli 7.
 
 Funktionen ska fungera oavsett om veckodagen står med små eller stora bokstäver.
 
-## 16
+## 16 :heavy_check_mark:
 Skriv en funktion `doubleIt` som dubblerar värdet på en variabel som innehåller ett tal **och gör det positivt**.
 #### Exempel:
 ```
