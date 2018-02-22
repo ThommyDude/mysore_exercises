@@ -167,4 +167,26 @@
         $number = abs($number);
         return ($number + $number);
     }
+
+    //Takes array of ints and returns the sum
+    function rekSumArray(array $array): int
+    {
+        if(count($array) >= 1)
+        {
+            return array_shift($array) + rekSumArray($array);
+        }
+        return 0;
+    }
+
+    //Takes array of ints and returns the sum
+    function iterSumArray(array $array): int
+    {
+        $total = 0;
+        while ($array)
+        {
+            $total += array_pop($array);
+        }
+
+        return $total;
+    }
 ?>

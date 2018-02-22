@@ -55,6 +55,12 @@
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 0, 7);
 
+            //rekSumArray( Array of ints );
+            make_tag("h2", rekSumArray($derparray));
+
+            //rekSumArray( Array of ints );
+            make_tag("h2", iterSumArray($derparray));
+            
             //plusArray( Array );
             make_tag("h6", plusArray($derparray));
             //meanArray( Array );
