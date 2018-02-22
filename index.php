@@ -54,6 +54,11 @@
             
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 0, 7);
+
+            //plusArray( Array );
+            make_tag("h6", plusArray($derparray));
+            //meanArray( Array );
+            make_tag("h6", meanArray($derparray));
             
             //make_list( Array );
             make_list($derparray);

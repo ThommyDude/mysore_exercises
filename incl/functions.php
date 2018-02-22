@@ -106,8 +106,23 @@
     }
 
     //Takes a float and returns it as a string!
-    function float_to_string(float $number)
+    function float_to_string(float $number): string
     {
         return number_format($number, 2, ",", ".");
+    }
+
+    //Takes an array and adds all the numbers in it together.
+    function plusArray(array $array): int
+    {
+        return array_sum($array);
+    }
+
+    //Takes an array and calculates the average of the array before returning it
+    function meanArray(array $array): float
+    {
+        if(count($array) > 0)
+        {
+            return array_sum($array)/count($array);
+        }
     }
 ?>
