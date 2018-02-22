@@ -106,7 +106,7 @@ Skriv en funktion som vänder på en sträng. Funktionen ska finnas i två versi
 reverseIt("baklänges"); // "segnälkab"
 ```
 
-## 23
+## 23 :heavy_check_mark:
 Vi bygger funktioner att använda i en webshop! Skriv en funktion som tar ett namn på en produkt som argument och returnerar en sträng. Strängen ska vara produktnamnet inuti ett \<strong> element.
 
 Kontrollera i webbläsaren att funktionen gör rätt, genom att hitta på ett produktnamn.

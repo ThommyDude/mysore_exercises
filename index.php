@@ -49,13 +49,15 @@
             make_tag("p", roundNumb(9.63));
 
             //float_to_string( Float ); Takes a float and returns a string?
-            echo float_to_string(3.768);
+            make_tag("p", float_to_string(3.768));
 
             //capitalize( String ); returns input string with the FIRST character capitalized.
             make_tag("h2", capitalize("steve"));
 
             make_tag("h1", reverseThisIter("help me dude!"));
             make_tag("h1", reverseThisRek("why won't you help me?!"));
+
+            echo makeItStrong("Monkey Ball DS");
             
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 1, 10);

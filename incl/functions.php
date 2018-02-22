@@ -275,4 +275,10 @@
         }
         return $string;
     }
+
+    //Takes a String and returns it inside of a strong tag.
+    function makeItStrong(string $name): string
+    {
+        return "<strong>" . $name . "</strong>";
+    }
 ?>
