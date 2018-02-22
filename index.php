@@ -57,7 +57,7 @@
             make_tag("h1", reverseThisIter("help me dude!"));
             make_tag("h1", reverseThisRek("why won't you help me?!"));
 
-            echo makeProduct("Monkey Ball DS", "monkeyball.jpg");
+            echo makeProduct("Monkey Ball DS", "monkeyball.jpg", 215.88, "Buy that shit!");
             
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 1, 10);
