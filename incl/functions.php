@@ -98,4 +98,10 @@
     {
         return ucfirst($name);
     }
+
+    //Takes an float and returns it as a rounded int.
+    function roundNumb(float $number): int
+    {
+        return round($number);
+    }
 ?>

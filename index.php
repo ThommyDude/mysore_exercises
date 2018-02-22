@@ -41,17 +41,22 @@
 
             make_tag( "p", $derpstr, "style='color: darkblue; background-color: hotpink;'");
 
+            //roundNumb( Float ); returns rounded float as int.
+            make_tag("p", roundNumb(4.56));
+            make_tag("p", roundNumb(2.1113));
+            make_tag("p", roundNumb(9.63));
+
+            //capitalize( String ); returns input string with the FIRST character capitalized.
+            make_tag("h2", capitalize("steve"));
+            
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 0, 7);
-
+            
             //make_list( Array );
             make_list($derparray);
 
             //makeMultiDimTable( Multidimentional Array );
             makeMultiDimTable($derparray);
-
-            //capitalize( String ); returns input string with the FIRST character capitalized.
-            make_tag("h2", capitalize("steve"));
         ?>
     </body>
 </html>
