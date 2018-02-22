@@ -26,7 +26,7 @@
             //make_paragraph( String );
             make_paragraph( "This is a p tag" );
             */
-            
+
             //make_tag( String that defines the tag, String with text to fill the tag[, String with attributes ]); [] = optional
             make_tag( "h3", "This is a heading", "style='color: purple;'");
             make_tag( "p", "This is a p tag");
@@ -55,7 +55,10 @@
             make_tag("h2", capitalize("steve"));
             
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
-            $derparray = randFillArray(50, 0, 7);
+            $derparray = randFillArray(50, 1, 10);
+
+            //oddArray( Array );
+            make_tag("p", oddArray($derparray) . " Odd numbers");
 
             //rekSumArray( Array of ints );
             make_tag("h2", rekSumArray($derparray));

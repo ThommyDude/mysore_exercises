@@ -219,6 +219,7 @@
         return $total;
     }
 
+    //Good old italian math!
     function fibnib(int $number)
     {
         if($number === 1)
@@ -231,5 +232,21 @@
         }
 
         return fibnib($number - 1) + fibnib($number - 2);
+    }
+
+    //Takes an array of numbers and returns a int of how many odd numbers there are.
+    function oddArray(array $array): int
+    {
+        $odd = 0;
+
+        foreach($array as $number)
+        {
+            if($number & 1)
+            {
+                $odd++;
+            }
+        }
+
+        return $odd;
     }
 ?>
