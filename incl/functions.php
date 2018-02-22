@@ -276,9 +276,9 @@
         return $string;
     }
 
-    //Takes a String and returns it inside of a strong tag.
-    function makeItStrong(string $name): string
+    //Takes a String for the name, a String for the image source.
+    function makeProduct(string $name, string $img)//: string
     {
-        return "<strong>" . $name . "</strong>";
+        return "<div><img src='./images/" . $img . "' alt='Should be an image here'/><br/><strong>" . $name . "</strong></div>";
     }
 ?>

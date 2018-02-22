@@ -111,10 +111,10 @@ Vi bygger funktioner att använda i en webshop! Skriv en funktion som tar ett na
 
 Kontrollera i webbläsaren att funktionen gör rätt, genom att hitta på ett produktnamn.
 
-## 24
+## 24 :heavy_check_mark:
 Förbättra funktionen så att den även tar en länk till en bild som argument. Den ska returnera en sträng som är ett \<div> element som innehåller både namnet och bilden. Bilden ska vara i ett \<img> element. Testa att skriva HTML separat innan du skriver funktionen, så blir det lättare.
 
-## 25
+## 25 
 Förbättra funktionen genom att lägga till en parameter för priset och en knapp. Priset ska vara ett decimaltal och knappen ska vara det som ska stå på knappen.
 #### Exempel:
 ```
