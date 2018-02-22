@@ -50,8 +50,8 @@
             //makeMultiDimTable( Multidimentional Array );
             makeMultiDimTable($derparray);
 
-            //capitalize( String ); returns input string capitalized.
-            echo capitalize("steve");
+            //capitalize( String ); returns input string with the FIRST character capitalized.
+            make_tag("h2", capitalize("steve"));
         ?>
     </body>
 </html>

@@ -93,9 +93,9 @@
         echo "</tbody>";
     }
 
-    //Takes a String and returns the same String but capitalized.
+    //Takes a String and returns the same String but with the FIRST character capitalized.
     function capitalize(string $name): string
     {
-        return strtoupper($name);
+        return ucfirst($name);
     }
 ?>
