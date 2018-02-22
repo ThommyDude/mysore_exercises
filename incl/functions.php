@@ -26,12 +26,13 @@
     */
 
     //Takes a String that defines what tag this should be aswell as a string of text that should be IN the tag.
+    //Also takes an optional String for the tags attributes. (Optional because not ALL tags need attributes!)
     //Although handy, this does require the user to know/look-up HTML tags.
-    function make_tag(string $tag, string $text)
+    function make_tag(string $tag, string $text, string $attr = '')
     {
         $tag = strtolower($tag);
         
-        echo "<" . $tag . ">" . $text . "</" . $tag . ">";
+        echo "<" . $tag . " " . $attr . ">" . $text . "</" . $tag . ">";
     }
 
 ?>

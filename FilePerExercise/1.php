@@ -11,18 +11,14 @@
     </head>
     <body>
         <?php
-            /* Legacy functions:
-            //make_heading( String, Number 1~6 );
-            make_heading( "This is a heading", 3 );
+            //Takes a text as String and echos it back with <p> tags around it.
+            function make_paragraph(string $text)
+            {
+                echo "<p>" . $text . "</p>";
+            }
             
             //make_paragraph( String );
             make_paragraph( "This is a p tag" );
-            */
-            
-            //make_tag( String that defines the tag, String with text to fill the tag[, String with attributes ]); [] = optional
-            make_tag( "h3", "This is a heading", "style='color: purple;'");
-            make_tag( "p", "This is a p tag");
-
         ?>
     </body>
 </html>
