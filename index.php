@@ -23,7 +23,11 @@
             make_tag( "h3", "This is a heading", "style='color: purple;'");
             make_tag( "p", "This is a p tag");
 
-            $derpstr = "sometimes i\\njust don't know\\nwhat\\nto\\ndo!";
+            $derpstr = "sometimes i
+            just don't know
+            what
+            to
+            do!";
             //switch_br( String of text with "\\n" ); Returns String where all "\\n" are replaced with <br>
             $derpstr = switch_br($derpstr);
 

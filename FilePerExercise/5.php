@@ -15,7 +15,11 @@
                 return nl2br($text);
             }
             
-            $derp = "sometimes i\\njust don't know\\nwhat\\nto\\ndo!";
+            $derp = "sometimes i
+            just don't know
+            what
+            to
+            do!";
             
             //switch_br( String of text with "\\n" ); Returns String where all "\\n" are replaced with <br>
             $derp = switch_br($derp);
