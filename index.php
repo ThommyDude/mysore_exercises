@@ -12,9 +12,12 @@
     <body>
         <?php
             
-            make_paragraph("Lol, wut?!");
-
+            //make_heading( String, Number 1~6 );
+            make_heading( "This is a heading", 3 );
             
+            //make_paragraph( String );
+            make_paragraph( "This is a p tag" );
+
 
         ?>
     </body>
