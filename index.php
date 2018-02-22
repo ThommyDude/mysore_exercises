@@ -59,10 +59,10 @@
             make_tag("h2", rekSumArray($derparray));
 
             //one_hundredRek();
-            make_tag("h3", one_hundredRek());
+            make_tag("h3", rangeRek(25, 750));
             
-            //rekSumArray( Array of ints );
-            make_tag("h3", one_hundredIter());
+            //rekSumArray( int min, int max );
+            make_tag("h3", rangeIter(20, 200));
             
             //plusArray( Array );
             make_tag("h6", plusArray($derparray));

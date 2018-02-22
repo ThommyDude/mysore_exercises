@@ -191,24 +191,24 @@
     }
 
     //returns the sum of 1->100
-    function one_hundredRek($array = null): int
+    function rangeRek(int $min, int $max, $array = null): int
     {
         if($array === null)
         {
-            $array = range(1, 100);
+            $array = range($min, $max);
         }
 
         if(count($array) >= 1)
         {
-            return array_shift($array) + one_hundredRek($array);
+            return array_shift($array) + rangeRek($min, $max, $array);
         }
         return 0;
     }
 
-    //returns the sum of 1->100
-    function one_hundredIter(): int
+    //returns the sum of $min->$max
+    function rangeIter(int $min, int $max): int
     {
-        $array = range(1, 100);
+        $array = range($min, $max);
         $total = 0;
 
         while ($array)
