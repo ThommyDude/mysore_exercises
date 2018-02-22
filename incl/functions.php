@@ -35,4 +35,11 @@
         echo "<" . $tag . " " . $attr . ">" . $text . "</" . $tag . ">";
     }
 
+    //Takes a long String and replaces all "\\n" with <br> tags.
+    function switch_br(string $text)
+    {
+        $text = str_replace("\\n", "\n", $text);
+        return nl2br($text);
+    }
+
 ?>
