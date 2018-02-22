@@ -58,8 +58,11 @@
             //rekSumArray( Array of ints );
             make_tag("h2", rekSumArray($derparray));
 
+            //one_hundredRek();
+            make_tag("h3", one_hundredRek());
+            
             //rekSumArray( Array of ints );
-            make_tag("h2", iterSumArray($derparray));
+            make_tag("h3", one_hundredIter());
             
             //plusArray( Array );
             make_tag("h6", plusArray($derparray));
