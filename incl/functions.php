@@ -25,14 +25,16 @@
 
     */
 
-    //Takes a String that defines what tag this should be aswell as a string of text that should be IN the tag.
+    //Takes a String that defines what tag this should be aswell as anything to fill it with.
     //Also takes an optional String for the tags attributes. (Optional because not ALL tags need attributes!)
     //Although handy, this does require the user to know/look-up HTML tags.
-    function make_tag(string $tag, string $text, string $attr = '')
+    function make_tag(string $tag, $text, string $attr = '')
     {
         $tag = strtolower($tag);
         
-        echo "<" . $tag . " " . $attr . ">" . $text . "</" . $tag . ">";
+        echo "<" . $tag . ">";
+        echo $text;
+        echo "</" . $tag . ">";
     }
 
     //Takes a long String and replaces all "\\n" with <br> tags.
@@ -56,6 +58,19 @@
             $array[] = rand($min, $max);
         }
         return $array;
+    }
+
+    //Takes an array and prints it out as a <ul> with <li> elements for every item in the array.
+    function make_list(array $array)
+    {
+        echo "<ul>";
+        
+        foreach($array as $numb)
+        {
+            make_tag("li", $numb);
+        }
+
+        echo "</ul>";
     }
 
 ?>

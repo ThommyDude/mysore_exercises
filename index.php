@@ -35,12 +35,9 @@
 
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 0, 7);
-            echo "<ul>";
-            foreach($derparray as $numb)
-            {
-                echo "<li>" . $numb . "</li>";
-            }
-            echo "</ul>";
+
+            //make_list( Array );
+            make_list($derparray);
         ?>
     </body>
 </html>
