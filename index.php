@@ -53,6 +53,9 @@
 
             //capitalize( String ); returns input string with the FIRST character capitalized.
             make_tag("h2", capitalize("steve"));
+
+            make_tag("h1", reverseThisIter("help me dude!"));
+            make_tag("h1", reverseThisRek("why won't you help me?!"));
             
             //randFillArray( Number amount of numbers in array[, Number lowest number for rand(), Number highest number for rand()]);
             $derparray = randFillArray(50, 1, 10);

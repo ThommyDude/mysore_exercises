@@ -249,4 +249,30 @@
 
         return $odd;
     }
+
+    //Takes a string and reverses it "iteratively"
+    function reverseThisIter(string $string)
+    {
+        $stringArray = str_split($string);
+        $length = count($stringArray);
+        
+        for($i = 0; $i < $length; $i++)
+        {
+            $newString[] = array_pop($stringArray);
+        }
+        
+        $string = implode("", $newString);
+        
+        return $string;
+    }
+
+    //Takes a string and reverses it "recursively"
+    function reverseThisRek(string $string)
+    {
+        if(strlen($string) > 1)
+        {
+            return substr($string, -1) . reverseThisRek(substr($string, 0, -1));
+        }
+        return $string;
+    }
 ?>
