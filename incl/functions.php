@@ -73,4 +73,24 @@
         echo "</ul>";
     }
 
+    //Takes a (preferably) multidimentional array and turns it into a HTML Table.
+    //We were allowed to assume that the array ONLY has numbers, and calculate the totals.
+    function makeMultiDimTable($array)
+    {
+        $totalkeys = 0;
+        $totalvalues = 0;
+        echo "<table>";
+        echo "<thead><tr><td>Keys</td><td>Values</td></tr></thead>";
+        echo "<tbody>";
+        foreach($array as $key => $value)
+        {
+            echo "<tr><td>" . $key . "</td><td>" . $value . "</td></tr>";
+            $totalkeys += $key;
+            $totalvalues += $value;
+        }
+        echo "<tr><td colspan=2>Totals</td></tr>";
+        echo "<tr><td>" . $totalkeys . "</td><td>" . $totalvalues . "</td></tr>";
+        echo "</tbody>";
+    }
+
 ?>
