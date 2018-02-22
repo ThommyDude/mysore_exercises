@@ -80,7 +80,7 @@ Skriv en funktion som räknar ut summan av alla tal i en array. Funktionen ska f
 ## 18 :question:
 Skriv en funktion som räknar ut summan av talen 1 till 100, i en rekursiv och en iterativ version.
 
-## 19 
+## 19 :question:
 Förbättra båda versionerna av funktionen så att det går att ställa in det första och det sista talet som argument.
 
 ## 20
