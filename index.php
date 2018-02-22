@@ -59,6 +59,9 @@
             make_tag("h6", plusArray($derparray));
             //meanArray( Array );
             make_tag("h6", meanArray($derparray));
+
+            //dayToNumber( String ["monday", "tuesday", "wednesday", "thrusday", "friday", "saturday", "sunday"] );
+            make_tag("h2", dayToNumber("ThURsdaY"));
             
             //make_list( Array );
             make_list($derparray);

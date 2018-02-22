@@ -125,4 +125,40 @@
             return array_sum($array)/count($array);
         }
     }
+
+    //Takes a string with a day of the week and returns a number according to the day of the week.
+    function dayToNumber(string $day): int
+    {
+        $day = strtolower($day);
+        switch($day)
+        {
+            case 'monday':
+                return 1;
+                break;
+            
+            case 'tuesday':
+                return 2;
+                break;
+
+            case 'wednesday':
+                return 3;
+                break;
+
+            case 'thursday':
+                return 4;
+                break;
+
+            case 'friday':
+                return 5;
+                break;
+
+            case 'saturday':
+                return 6;
+                break;
+
+            case 'sunday':
+                return 7;
+                break;
+        }
+    }
 ?>
