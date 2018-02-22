@@ -93,4 +93,9 @@
         echo "</tbody>";
     }
 
+    //Takes a String and returns the same String but capitalized.
+    function capitalize(string $name): string
+    {
+        return strtoupper($name);
+    }
 ?>

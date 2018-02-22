@@ -49,6 +49,9 @@
 
             //makeMultiDimTable( Multidimentional Array );
             makeMultiDimTable($derparray);
+
+            //capitalize( String ); returns input string capitalized.
+            echo capitalize("steve");
         ?>
     </body>
 </html>
