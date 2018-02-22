@@ -104,4 +104,10 @@
     {
         return round($number);
     }
+
+    //Takes a float and returns it as a string!
+    function float_to_string(float $number)
+    {
+        return number_format($number, 2, ",", ".");
+    }
 ?>

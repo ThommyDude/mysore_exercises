@@ -46,6 +46,9 @@
             make_tag("p", roundNumb(2.1113));
             make_tag("p", roundNumb(9.63));
 
+            //float_to_string( Float ); Takes a float and returns a string?
+            echo float_to_string(3.768);
+
             //capitalize( String ); returns input string with the FIRST character capitalized.
             make_tag("h2", capitalize("steve"));
             
