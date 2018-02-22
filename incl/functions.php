@@ -1,5 +1,7 @@
 <?php
 
+    /* Keeping these for "Legacy" purposes.
+
     //Takes a text as String and echos it back with <p> tags around it.
     function make_paragraph(string $text)
     {
@@ -19,6 +21,17 @@
         }
 
         echo "<h" . $number . ">" . $text . "</h" . $number . ">";
+    }
+
+    */
+
+    //Takes a String that defines what tag this should be aswell as a string of text that should be IN the tag.
+    //Although handy, this does require the user to know/look-up HTML tags.
+    function make_tag(string $tag, string $text)
+    {
+        $tag = strtolower($tag);
+        
+        echo "<" . $tag . ">" . $text . "</" . $tag . ">";
     }
 
 ?>
