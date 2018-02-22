@@ -281,4 +281,18 @@
     {
         return "<div><img src='./images/" . $img . "' alt='Should be an image here'/><br/><strong>" . $name . "</strong><br/><i>" . round($price, 2) . "</i><br/><button>" . $buttonText . "</button></div>";
     }
+
+    //Takes two strings, searching for the second in the first.
+    function mark_search(string $string, string $search)
+    {
+        $pos = strpos($string, $search);
+        if($pos !== false)
+        {
+            return "<p>" . substr_replace($string, "<em>" . $search . "</em>", $pos, strlen($search)) . "</p>";
+        }
+        else
+        {
+            return "<p>" . $string . "</p><p>Couldn't find what I was looking for...</p>";
+        }
+    }
 ?>

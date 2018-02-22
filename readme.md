@@ -122,7 +122,7 @@ generate_product("Skiftnyckel", "/bild.gif", 89.50, "Lägg till i kundvagn");
 ```
 Testa funktionen i webläsaren.
 
-## 26
+## 26 :heavy_check_mark:
 Skriv funktionen `mark_search_word`. Funktionen ska ta två argument: en sträng som kan innehålla vad som helst och en sträng som är ett ord man söker efter. Funktionen ska returnera den första strängen, med några ändringar. Om sökordet finns i strängen så ska det göras kursivt med \<em> elementet.
 #### Exempel:
 ```
