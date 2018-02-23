@@ -77,10 +77,10 @@ doubleIt(-3); // 6
 ## 17 :heavy_check_mark:
 Skriv en funktion som räknar ut summan av alla tal i en array. Funktionen ska finnas i två versioner: en iterativ (som innehåller en for/while-loop) och en rekursiv.
 
-## 18 :question:
+## 18 :heavy_check_mark:
 Skriv en funktion som räknar ut summan av talen 1 till 100, i en rekursiv och en iterativ version.
 
-## 19 :question:
+## 19 :heavy_check_mark:
 Förbättra båda versionerna av funktionen så att det går att ställa in det första och det sista talet som argument.
 
 ## 20 :heavy_check_mark:
